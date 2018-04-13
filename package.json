@@ -1,0 +1,45 @@
+{
+  "name": "autogif",
+  "version": "0.0.5",
+  "description": "Create animated gif",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/autogif-bin.js",
+    "prepublishOnly": "tsc",
+    "test": "./node_modules/.bin/mocha --opts mocha.opts",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BriteSnow/laydown.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "animated",
+    "gif"
+  ],
+  "bin": {
+    "autogif": "./dist/autogif-bin.js"
+  },
+  "author": "Jeremy Chone <jeremy.chone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BriteSnow/node-ffgif/issues"
+  },
+  "homepage": "https://https://github.com/BriteSnow/node-ffgif",
+  "dependencies": {
+    "@types/chokidar": "^1.7.5",
+    "@types/fs-extra": "^5.0.2",
+    "chokidar": "^2.0.3",
+    "fast-glob": "^2.2.0",
+    "fs-extra": "^5.0.0",
+    "minimist": "^1.2.0",
+    "p-spawn": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8.0.26",
+    "mocha": "^3.5.0"
+  }
+}
