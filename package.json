@@ -29,17 +29,16 @@
   "homepage": "https://https://github.com/BriteSnow/node-ffgif",
   "dependencies": {
     "@types/chokidar": "^1.7.5",
-    "@types/fs-extra": "^5.0.2",
-    "chokidar": "^2.0.3",
-    "fast-glob": "^2.2.0",
-    "fs-extra": "^5.0.0",
+    "@types/fs-extra": "^5.0.4",
+    "chokidar": "^2.0.4",
+    "fast-glob": "^2.2.2",
+    "fs-extra": "^7.0.0",
     "minimist": "^1.2.0",
-    "p-spawn": "^0.4.0"
+    "p-spawn": "^0.4.1"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.0",
-    "@types/mocha": "^2.2.42",
-    "@types/node": "^8.0.26",
-    "mocha": "^3.5.0"
+    "@types/mocha": "^5.2.5",
+    "mocha": "^5.2.0"
   }
 }

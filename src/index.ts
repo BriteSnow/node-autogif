@@ -22,6 +22,8 @@ export async function watch(dir: string) {
 
 	watcher.on('change', gifGen);
 	watcher.on('add', gifGen);
+
+
 }
 
 async function makeAGif(moveFile: string) {
