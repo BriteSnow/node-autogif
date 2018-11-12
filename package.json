@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/BriteSnow/laydown.git"
+    "url": "git+ssh://git@github.com/BriteSnow/node-autogif.git"
   },
   "keywords": [
     "ffmpeg",
@@ -23,10 +23,7 @@
   },
   "author": "Jeremy Chone <jeremy.chone@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BriteSnow/node-ffgif/issues"
-  },
-  "homepage": "https://https://github.com/BriteSnow/node-ffgif",
+  "homepage": "https://github.com/BriteSnow/node-autogif",
   "dependencies": {
     "@types/chokidar": "^1.7.5",
     "@types/fs-extra": "^5.0.4",
