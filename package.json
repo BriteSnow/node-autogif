@@ -26,11 +26,8 @@
   "homepage": "https://github.com/BriteSnow/node-autogif",
   "dependencies": {
     "@types/chokidar": "^1.7.5",
-    "@types/fs-extra": "^5.0.4",
     "chokidar": "^2.0.4",
-    "fast-glob": "^2.2.4",
-    "fs-extra": "^7.0.1",
-    "fs-extra-plus": "^0.5.1",
+    "fs-extra-plus": "^0.5.3",
     "minimist": "^1.2.0",
     "p-spawn": "^0.4.1"
   },
