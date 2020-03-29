@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/autogif-bin.js",
-    "prepublishOnly": "tsc",
-    "test": "./node_modules/.bin/mocha --opts mocha.opts",
+    "prepublishOnly": "./node_modules/.bin/tsc",
     "build": "./node_modules/.bin/tsc"
   },
   "repository": {
@@ -25,14 +24,15 @@
   "license": "MIT",
   "homepage": "https://github.com/BriteSnow/node-autogif",
   "dependencies": {
-    "chokidar": "^3.0.1",
-    "fs-extra-plus": "^0.5.6",
-    "minimist": "^1.2.0",
-    "p-spawn": "^0.4.1"
+    "chokidar": "^3.3.1",
+    "fs-extra-plus": "^0.5.15",
+    "minimist": "^1.2.5",
+    "p-spawn": "^0.5.0"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.0",
-    "@types/mocha": "^5.2.7",
-    "mocha": "^6.1.4"
+    "@types/mocha": "^7.0.2",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3"
   }
 }
