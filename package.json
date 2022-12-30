@@ -32,7 +32,7 @@
   "devDependencies": {
     "@types/minimist": "^1.2.0",
     "@types/mocha": "^7.0.2",
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "typescript": "^3.8.3"
   }
 }
